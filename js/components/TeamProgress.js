@@ -2,8 +2,8 @@ export default {
     template: `
         <div class="grid place-content-center text-center relative">
             <span :class="{
-                'text-4xl transition-all z-30': true,
-                'font-bold text-7xl': active
+                'text-4xl transition-all z-30 opacity-30': true,
+                'font-bold text-7xl opacity-100': active
             }">{{ score }}</span>
             
             <span class="z-30" v-if="false">
