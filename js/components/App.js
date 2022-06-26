@@ -1,8 +1,10 @@
 import TeamProgress from "./TeamProgress.js";
+import Banner from "./Banner.js"
 
 export default {
     components: {
-        'team-progress': TeamProgress
+        'team-progress': TeamProgress,
+        'banner': Banner
     },
 
     data() {

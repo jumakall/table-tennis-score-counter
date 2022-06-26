@@ -8,6 +8,7 @@
 </head>
 <body class="h-full">
     <div id="app" class="h-full text-white" style="background-color: #1B2431;">
+        <banner hidedelay="5">Pardon the mess, app still under heavy development!</banner>
         <div class="flex h-full">
             <team-progress class="w-1/2 h-full" :score="game.teams[0].score" :maximum="maxScore" :active="game.inTurn == 0" @click="grantScore(0)"></team-progress>
             <team-progress class="w-1/2 h-full" :score="game.teams[1].score" :maximum="maxScore" :active="game.inTurn == 1" @click="grantScore(1)"></team-progress>
